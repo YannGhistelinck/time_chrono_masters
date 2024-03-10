@@ -1,0 +1,165 @@
+@use '../utils/_variables' as *
+
+.article__subtitle
+    color: $secondaryColor
+    margin: 0 25px 40px 25px
+
+.article__description
+    margin-bottom: 30px
+    @media (max-width: $tabletSize)
+        margin: 0 25px 30px 25px
+
+.article__cardContainer
+    display: flex
+    width: 96%
+    padding: 0 2%
+    @media (max-width: $tabletSize)
+        width: 100%
+
+.articleChronometry
+    flex-direction: row
+    flex-wrap: wrap 
+    justify-content: space-around
+    gap: 10px
+    &__card
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-bottom: 20px
+        &__img
+            width: 280px
+            height: 380px
+            @media (max-width: $tabletSize)
+                width: 250px
+                height: 350px
+        &__title
+            font-size: 20px
+
+.articleTechnology
+    flex-direction: row
+    margin: -20px 0 30px 0
+    justify-content: space-around
+    @media (max-width: $tabletSize)
+        flex-direction: column-reverse
+        width: 90%
+    & img 
+        object-fit: contain
+    &__column
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+
+
+.articleBib
+    flex-direction: row
+    // margin: -20px 0 80px 0
+    justify-content: space-around
+    height: fit-content
+    @media (max-width: $tabletSize)
+        flex-wrap: wrap
+        gap: 25px
+        width: 97%
+    &__column
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        height: fit-content
+        gap: 15px
+        @media (max-width: $tabletSize)
+            gap: 25px
+    &__content
+        height: 315px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        @media (max-width: $mobileSize)
+            height: fit-content
+    &__bib1
+        object-position: top
+        object-fit: cover
+        width: 315px
+        align-self: end
+        // z-index: 2
+        // position: relative
+        // right: -75%
+        // top: -15vh
+    &__bib2
+        width: 315px
+        // z-index: 0
+        // position: relative
+        // right: -10%
+    &__bib3
+        width: 315px
+        // z-index: 1
+        // position: relative
+        // top: -5vh
+        // left: -5%
+        
+        
+
+.articleInscription
+    flex-direction: row
+    margin: 40px 0 100px 0
+    justify-content: space-around
+    @media (max-width: $mobileSize)
+        flex-direction: column
+        gap: 30px
+    &__column
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        height: fit-content
+        
+    &__content
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        height: 100%
+        @media (max-width: $tabletSize)
+            margin: 0 20px
+    &__inscription1
+        z-index: 1
+        object-fit: contain
+    &__inscription2
+        z-index: 0
+        width: 279px
+        height: 279px
+        position: relative
+        left: -20%
+        bottom: -15vh
+        @media (max-width: $tabletSize)
+            position: initial
+            width: 240px
+            height: 240px
+            margin: 40px auto 0 auto
+        
+
+.articleMarketing
+    flex-direction: row
+    margin: 20px 0 30px 0
+    justify-content: space-around
+    gap: 3%
+    @media (max-width: $mobileSize)
+        flex-direction: column-reverse
+    &__column
+        width: 48.5%
+        display: flex
+        flex-direction: column
+        justify-content: center
+        @media (max-width: $mobileSize)
+            width: 100%
+            margin-bottom: 30px
+        & p
+            text-align: justify
+            @media (max-width: $tabletSize)
+                margin: 0 25px 0 15px
+    &__content
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+    &__marketing
+        width: 100%

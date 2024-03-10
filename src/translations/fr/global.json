@@ -1,0 +1,78 @@
+{
+    "header" : {
+        "nav_home":"Accueil",
+        "nav_prestations":"Prestations et services",
+        "nav_results":"Résultats et courses à venir",
+        "nav_contact":"Contact",
+        "subMenu_chronometry" : "Chronométrie",
+        "subMenu_technology" : "Technologie",
+        "subMenu_bibs" : "Dossards",
+        "subMenu_insciptions" : "Inscriptions",
+        "subMenu_marketing" : "Marketing digital"
+    },
+    "home":{
+        "title_results": "Résultats",
+        "title_menu":"Menu",
+        "title_races":"Épreuves à venir",
+        "link_all_results":"Voir tous les résultats",
+        "link_all_races": "Voir toutes les épreuves à venir",
+        "link_prestations": "Prestations et services",
+        "link_contact": "Devis et contact"
+    },
+    "prestations":{
+        "chronometry":{
+            "title1":"Prestations de",
+            "title2":"Chronometrie",
+            "subtitle":"Time Chrono Masters adopte une approche résolument éco-responsable en offrant des services conçus pour minimiser l'impact écologique sur l'écosystème terrestre.",
+            "description": "Nous proposons des services de chronométrie sur différents types d'événements :",
+            "card_cross":"Course sur route & cross",
+            "card_trail":"Trail",
+            "card_caninCross":"CaniCross",
+            "card_walk":"Marche Nordique",
+            "card_bike":"Vélo sur route et VTT"
+        },
+        "technology":{
+            "title":"Technologie",
+            "description1": "Nous sommes équipés du matériel uR800 fabriqué par UR Time.",
+            "description2": "Le système UR Time est contruit par \"RF conception\" une entreprise française experte dans le domaine du RFID UHF qui a su s’imposer sur des évènements majeurs au niveau national et au niveau mondial.",
+            "description2_span": "(Marathon de bordeaux, Ultra Trail Mont-Blanc, etc)",
+            "description3": "Il s’agit des puces que nous privilégions en raison de nos valeurs qui se veulent éco-reponsable. Ces puces sont réutilisables pour d’autres événements chronométrés.",
+            "description4": "Ces puces sont collées au dos du dossard et sont à usage unique.",
+            "subtitle1": "Puces actives",
+            "subtitle2": "Puces passives"
+        },
+        "bibs":{
+            "title1":"Prestations pour",
+            "title2":"les dossards",
+            "description1":"Commande et réception des dossards",
+            "description2":"Conception graphique : réflexion et création"
+        },
+        "inscriptions":{
+            "title1":"Prestation pour",
+            "title2":"les inscriptions",
+            "description":"Possibilité de s'inscrire et de payer en ligne pour participer aux compétitions"
+        },
+        "marketing":{
+            "title1":"Prestations de",
+            "title2":"Marketing digital",
+            "description1":"Création de la charte graphique de votre événement et des éléments de support (logo, flyers, site internet).",
+            "description2":"Campagne de marketing digital (événement sur les réseaux sociaux, campagne de diffusion, promotion sur des groupes et forum de running)."
+        }
+    },
+    "results":{
+        "title_results": "Résultats",
+        "title_next": "Courses à venir",
+        "noResult": "Il n'y a pas encore de course à afficher..."
+    },
+    "contact":{
+        "title": "Nous contacter"
+    },
+    "error":{
+        "message":"La page que vous demandez est introuvable..."
+    },
+    "footer":{
+        "description_title": "Présentation",
+        "description_text": "Time Chrono Masters adopte une approche résolument éco-responsable en offrant des services conçus pour minimiser l'impact écologique sur l'écosystème terrestre.",
+        "nav_title": "Navigation"
+    }
+}

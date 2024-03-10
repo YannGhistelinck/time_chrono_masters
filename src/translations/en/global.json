@@ -1,0 +1,78 @@
+{
+    "header" : {
+        "nav_home":"Home",
+        "nav_prestations":"Prestations and services",
+        "nav_results":"Résults and Next races",
+        "nav_contact":"Contact",
+        "subMenu_chronometry" : "Chronometry",
+        "subMenu_technology" : "Technology",
+        "subMenu_bibs" : "Bibs",
+        "subMenu_inscriptions" : "Inscriptions",
+        "subMenu_marketing" : "Digital marketing"
+    },
+    "home":{
+        "title_results": "Results",
+        "title_menu":"Menu",
+        "title_races":"Upcomings tests",
+        "link_all_results":"See all results",
+        "link_all_races": "See all upcomings tests",
+        "link_prestations": "Prestations and services",
+        "link_contact": "Estimates and contact"
+    },
+    "prestations":{
+        "chronometry":{
+            "title1":"Chronometry",
+            "title2":"Prestations",
+            "subtitle":"Time Chrono Masters adopts a resolutely eco-responsible approach by offering services designed to minimize the ecological impact on the terrestrial ecosystem.",
+            "description": "We offer timing services on different types of events :",
+            "card_cross":"Road and cross racing",
+            "card_trail":"Trail",
+            "card_caninCross":"CaniCross",
+            "card_walk":"Nordic's walk",
+            "card_bike":"Road and mountain biking"
+        },
+        "technology":{
+            "title":"Technology",
+            "description1": "We are equipped with uR800 equipment manufactured by UR Time.",
+            "description2": "The UR Time system is built by a French company \"RF conception\" expert in the field of UHF RFID which has established itself on major events at national and global level.",
+            "description2_span": "(Bordeaux Marathon, Ultra Trail Mont-Blanc, etc)",
+            "description3": "These are the chips that we favor in relation to our ethics which aims to be eco-responsible. These chips are reusable for other timed events.",
+            "description4": "These chips are stuck to the back of the bib and are single use.",
+            "subtitle1": "Active chips",
+            "subtitle2": "Passive chips"
+        },
+        "bibs":{
+            "title1":"Prestations for",
+            "title2":"bibs",
+            "description1":"Ordering and receiving bibs",
+            "description2":"Graphic design: reflection and creation"
+        },
+        "inscriptions":{
+            "title1":"Prestations for",
+            "title2":"Inscriptions",
+            "description":"Possibility to register and pay online to participate in competitions"
+        },
+        "marketing":{
+            "title1":"Digital Marketing",
+            "title2":"Prestations",
+            "description1":"Creation of the graphic charter for your event and supporting elements (logo, flyers, website).",
+            "description2":"Digital marketing campaign (events on social networks, distribution campaign, promotion on running groups and forums)."
+        }
+    },
+    "results":{
+        "title_results": "Results",
+        "title_next": "Upcomings races",
+        "noResult" : "There are no races to display yet..."
+    },
+    "contact":{
+        "title": "Contact us"
+    },
+    "error":{
+        "message":"the page you are requesting cannot be found"
+    },
+    "footer":{
+        "description_title": "Presentation",
+        "description_text": "Time Chrono Masters adopts a resolutely eco-responsible approach by offering services designed to minimize the ecological impact on the terrestrial ecosystem.",
+        "nav_title": "Navigation"
+    }
+}

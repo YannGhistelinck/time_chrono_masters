@@ -1,0 +1,26 @@
+@use '../utils/_variables' as *
+
+.resultsArticle
+    min-height: 240px
+    &__table
+        width: 85%
+        margin: 50px 10% 0 5%
+        position: relative
+        z-index: 1
+
+.paginate
+    display: flex
+    justify-content: space-around
+    align-items: center
+    margin-top: 15px
+    &__previous
+        transform: rotate(180deg)
+        height: 20px
+        &:hover
+            cursor: pointer
+    &__page
+        margin: 0
+    &__next
+        height: 20px
+        &:hover
+            cursor: pointer
